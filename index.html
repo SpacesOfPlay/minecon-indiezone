@@ -11,13 +11,20 @@
     <style>
       body {
         width: 100%;
+        padding: 0;
+		background: #100b15;
+		background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#100b15),color-stop(100%,#3b2661));
+		background: -webkit-linear-gradient(top,#100b15,#3b2661);
+		background: linear-gradient(180deg,#100b15 0,#3b2661);
       }
     
       svg {
+	    margin-top: 16px;
         max-width: 600px;
       }
     
       .container {
+        background: url(bg.png) repeat transparent;
         text-align: center;
         margin: 0 auto;
         max-width: 900px;
@@ -28,6 +35,7 @@
         font-family: "Noto Sans", sans-serif;
         font-weight: 700;
         margin-bottom: 0;
+        color: white;
       }
       
       h2 {
@@ -35,6 +43,7 @@
         font-weight: 400;
         font-size: 16px;	      
         margin-bottom: 32px;
+        color: white;
       }
       
       ul {
@@ -45,10 +54,12 @@
       
       li {
         margin-bottom: 16px;
-        list-style: none
+        list-style: none;
+        color: white;
       }
       
       li a {
+        color: #E671CB;
 	    font-family: "Noto Sans", sans-serif;
         font-weight: 700;
       }
